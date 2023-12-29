@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "wmaurer.change-case",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "gruntfuggly.todo-tree",
+    "ms-azuretools.vscode-docker"
+  ]
+}

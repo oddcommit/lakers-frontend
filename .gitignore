@@ -1,0 +1,6 @@
+### react ###
+.DS_*
+node_modules
+build
+*.tsbuildinfo
+.idea

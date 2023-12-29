@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ESNext" /* 生成されるJavaScriptの言語バージョンを設定し、互換性のあるライブラリ宣言を含めます。 */,
+    "jsx": "react-jsx" /* 生成されるJSXコードを指定します。 */,
+    "module": "ESNext" /* 生成されるモジュールコードを指定します。 */,
+    "rootDir": "./" /* ソースファイル内のルートフォルダを指定します。 */,
+    "moduleResolution": "node" /* 与えられたモジュール指定子からファイルを検索する方法を指定します。 */,
+    "resolveJsonModule": true /* .jsonファイルのインポートを有効にします。 */,
+    "esModuleInterop": false /* CommonJSモジュールをインポートする際のサポートを容易にするための追加のJavaScriptを出力します。これにより、型の互換性のために 'allowSyntheticDefaultImports' が有効になります。 */,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true /* インポートでケーシングが正しいことを確認します。 */,
+    "strict": true /* すべての厳密な型チェックオプションを有効にします。 */,
+    "skipLibCheck": true /* すべての .d.ts ファイルの型チェックをスキップします。 */,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ] /* コンパイラが使用するライブラリのリストを指定します。 */,
+    "noImplicitAny": true /* すべての式に明示的な型宣言が必要です。 */,
+    "noEmit": true /* コンパイル結果の出力を抑制します。 */,
+    "composite": true /* プロジェクトをコンポジット・プロジェクトとして扱います。 */
+  },
+  "include": [
+    "src/**/*",
+    "src/svg.d.ts",
+    "src/png.d.ts",
+    "vite.config.ts",
+    "jest.config.js"
+  ]
+}
